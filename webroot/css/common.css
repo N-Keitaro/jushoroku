@@ -1,0 +1,121 @@
+.header, .header_2, .footer {
+	text-align : center;
+	min-width: 500px;
+	background-color: #D1FFD1;
+}
+
+.header {
+	padding: 10px;
+}
+
+.header_2 {
+	padding: 5px;
+}
+
+.footer {
+	margin : 10px auto;
+	padding: 10px;
+}
+
+.title_text {
+	margin: 30px;
+	font-size: 20px;
+}
+body {
+	text-align : center;
+	min-width : 500px;
+}
+
+.submit {
+	margin : 3px auto;
+}
+
+th,td{
+	border: solid 1px #AAAAAA;
+	padding: 5px 10px;
+}
+
+.outertable{
+	text-align : center;
+}
+
+.hometable{
+	margin : 5px auto;
+	
+}
+.top_column{
+	background-color: #E0FFE0;
+}
+.ed_re_td{
+	min-width : 20px;
+	background-color: #E0FFE0;
+}
+.ed_re_re_emp{
+	border: solid  0px;
+	text-align : left;
+}
+
+.name_th{
+	min-width : 80px;
+}
+.huri_th{
+	min-width : 80px;
+}
+.post_th{
+	min-width : 80px;
+}
+.adds_th{
+	min-width : 80px;
+}
+.edit_th{
+	min-width : 20px;
+}
+.delete_th{
+	min-width : 20px;
+}
+
+#name-ec{
+	width : 200px;
+} 
+#hira-ec{
+	width : 200px;
+}
+#post-ec{
+	width : 80px;
+}
+#address-ec{
+	width : 300px;
+}
+
+.search_button{
+	padding : 4px 8px;
+	border-radius : 15px;
+	background-color: #fafafa;
+}
+
+.edit_button{
+	background-color: #fafafa;
+}
+
+.delete_button{
+	background-color: #fafafa;
+}
+
+.regist_button{
+	margin : 15px auto;
+	padding : 3px 5px;
+	border-radius : 9px;
+	background-color: #fafafa;
+}
+
+.return_button{
+	margin : 15px auto;
+	border-radius : 12px;
+	background-color: #fafafa;
+}
+
+
+.errer_td{
+	color : #FF3333;
+	min-width : 60px;
+}
