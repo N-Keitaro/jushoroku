@@ -23,6 +23,7 @@
     </title>
     <?= $this->Html->meta('icon') ?>
 
+	<?= $this->Html->css('common.css'); ?>
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('style.css') ?>
 
@@ -31,20 +32,14 @@
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <div id="container">
-        <div id="header">
-            <h1><?= __('Error') ?></h1>
-        </div>
-<!--  
-        <div id="content">
-            <?= $this->Flash->render() ?>
-
-          <?= $this->fetch('content') ?>
-        </div>
--->
-        <div id="footer">
-            <?= $this->Html->link(__('Back'), 'javascript:history.back()') ?>
-        </div>
-    </div>
+	<div class = "header"></div>
+	<div class = "title_text">エラー</div>
+	<div class = "header_2"></div>
+	<div id="content">
+		<?= $this->Flash->render() ?>
+		<?= $this->fetch('content') ?>
+	</div>
+	<p><?= $this->Html->link(__('Back'), '/Home') ?></p>
+	<div class = "footer"></div>
 </body>
 </html>
