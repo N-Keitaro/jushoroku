@@ -4,7 +4,7 @@ use Cake\Error\Debugger;
 
 $this->layout = 'error';
 
-/*
+
 if (Configure::read('debug')) :
     $this->layout = 'dev_error';
 
@@ -37,4 +37,4 @@ endif;
     <strong><?= __d('cake', 'Error') ?>: </strong>
     <?= __d('cake', 'The requested address {0} was not found on this server.', "<strong>'{$url}'</strong>") ?>
 </p>
-*/
+
